@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 #import time
 
-ser = Service(r"PATH_TO_CHROMEDRIVER")
+ser = Service(r"webdrivers/chromedriver.exe")
 op = webdriver.ChromeOptions()
 op.add_argument('headless') # run the browser in the background
 driver = webdriver.Chrome(service=ser, options=op)
